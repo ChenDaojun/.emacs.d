@@ -1,8 +1,10 @@
-# Here is my own Emacs configuration,Maybe the code is not well written,Please excuse me!
+# Emacs Configuration
+
+### Here is my own Emacs configuration,Maybe the code is not well written,Please excuse me!
 
 **Quick Install**
 
-This assumes you don't have an existing Emacs setup and want to run my .emacs.d as
+This assumes you don't have an existing Emacs setup and want to run my  .emacs.d  as
 your config.
 
 ```shell
