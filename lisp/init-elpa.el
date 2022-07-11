@@ -1,4 +1,6 @@
-(provide 'init-elpa)
+;;is init-elpa.el
+;; Copyright 2022 ChenDaojun
+;; URL:https://github.com/ChenDaojun/.emacs.d
 
 
 (setq package-archives
@@ -21,7 +23,13 @@
        (package-refresh-contents)
        (package-install 'use-package))
 
+(eval-when-compile
+  (require 'use-package))
+
 (setq use-package-always-ensure t
-      use-package-always-defer t
+      ;;use-package-always-defer t
       use-package-enable-imenu-support t
       use-package-expand-minimally t)
+
+
+(provide 'init-elpa)
