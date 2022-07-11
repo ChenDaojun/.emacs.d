@@ -2,9 +2,8 @@
 
 **Quick Install**
 
-This assumes you don't have an existing Emacs setup and want to run Spacemacs as
-your config. If you do have one, look at the [full installation
-instructions](#install) for other options.
+This assumes you don't have an existing Emacs setup and want to run my .emacs.d as
+your config.
 
 ```shell
 git clone https://github.com/ChenDaojun/.emacs.d ~/.emacs.d
